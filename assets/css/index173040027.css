@@ -1,0 +1,97 @@
+body {
+	font-family: jokerman;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x-y;
+	text-align: center;
+}
+.tombol {
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 18px;
+	position: fixed;
+	border-radius: 25px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+
+}
+.tombol:hover {
+	width: 675px;
+	height: 325px;
+	line-height: 325px;
+	font-size: 50px;
+	border-radius: 25px;
+	z-index: 3;
+	-webkit-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-moz-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-o-box-shadow: 0 0 50px rgba(0,0,0,1);
+	-ms-box-shadow: 0 0 50px rgba(0,0,0,1);
+}
+.tombol a{
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+.tombol:hover a {
+	color: white;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+}
+
+.tbl1 {
+	left: 350px;
+	top: 200px;
+	background-color: black;
+}
+.tbl1:hover, .tbl2:hover, .tbl3:hover, .tbl4:hover, .tbl5:hover, .tbl6:hover, .tbl7:hover {
+	left: 350px;
+	top: 200px;
+	background: linear-gradient(to bottom right, blue, lightblue);
+}
+
+.tbl2 {
+	left: 525px;
+	top: 200px;
+	background-color: black;
+}
+.tbl3 {
+	left : 700px;
+	top: 200px;
+	background-color: black;
+}
+.tbl4 {
+	left: 875px;
+	top: 200px;
+	background-color: black;
+}
+.tbl5 {
+	width: 225px;
+	left: 350px;
+	top: 375px;
+	background-color: black;
+}
+.tbl6 {
+	width: 200px;
+	top: 375px;
+	left: 600px;
+	background-color: black;
+}
+.tbl7 {
+	width: 200px;
+	top: 375px;
+	left: 825px;
+	background-color: black;
+}
+.judul {
+	margin: auto;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 3px solid black;
+	width: 200px;
+}
